@@ -1,0 +1,60 @@
+# WaveFront OBJ - Mtl file exported by LightRay3D
+# rw3st_eck.mtl
+# Num Materials: 8
+
+newmtl koffer
+Ka 0.501961 0.501961 0.501961
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 781.250000
+map_Kd G:\spiele\mohaa\model_entwurf\cubus_simple_ffw\cubus_ffw\koffer_rw.jpg
+
+newmtl detail
+Ka 0.501961 0.501961 0.501961
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 781.250000
+map_Kd G:\spiele\mohaa\model_entwurf\cubus_simple_ffw\cubus_ffw\details_rw_eck.tga
+
+newmtl tritt
+Ka 0.501961 0.501961 0.501961
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 781.250000
+map_Kd G:\spiele\mohaa\model_entwurf\cubus_simple_ffw\cubus_ffw\rw_alu_lf.jpg
+
+newmtl kaba
+Ka 0.501961 0.501961 0.501961
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 781.250000
+map_Kd G:\spiele\mohaa\model_entwurf\cubus_simple_ffw\cubus_ffw\kaba_tlf_eck.jpg
+
+newmtl kf
+Ka 0.501961 0.501961 0.501961
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 781.250000
+map_Kd G:\spiele\mohaa\model_entwurf\cubus_simple_ffw\cubus_ffw\rw_kfl_eck.jpg
+
+newmtl geraete
+Ka 0.501961 0.501961 0.501961
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 781.250000
+map_Kd G:\spiele\mohaa\model_entwurf\cubus_simple_ffw\cubus_ffw\geraete.tga
+
+newmtl reifen
+Ka 0.501961 0.501961 0.501961
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 781.250000
+map_Kd G:\spiele\mohaa\model_entwurf\cubus_simple_ffw\cubus_ffw\reifen.tga
+
+newmtl fahrwerk
+Ka 0.501961 0.501961 0.501961
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 781.250000
+map_Kd G:\spiele\mohaa\model_entwurf\cubus_simple_ffw\cubus_ffw\fahrwerk38.jpg
+

@@ -11,6 +11,7 @@ public class Weapon : MonoBehaviour
     private OVRGrabbable ovrGrabbable;
     public float lastfired = 10;
     public Transform BulletSpawn;
+    private bool isReady = false;
 
 
     void Start()
@@ -21,25 +22,34 @@ public class Weapon : MonoBehaviour
 
     void Update()
     {
-        if (ovrGrabbable.isGrabbed && OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
-        {
-            if (Time.time - lastfired > 1 / fireRate)
+        if(isReady)
+            if (ovrGrabbable.isGrabbed && OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
             {
-                Shoot();
+                if (Time.time - lastfired > 1 / fireRate)
+                {
+                    Shoot();
+                }
             }
-        }
-        if (ovrGrabbable.isGrabbed && OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))
-        {
-            if (Time.time - lastfired > 1 / fireRate)
+            if (ovrGrabbable.isGrabbed && OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))
             {
-                Shoot();
+                if (Time.time - lastfired > 1 / fireRate)
+                {
+                    Shoot();
+                }
             }
-        }
     }
     void Shoot()
     {
         Instantiate(muzzleFlash, BulletSpawn.position, BulletSpawn.rotation);
 
 
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.gameObject.tag == "Pin")
+        {
+            isReady = true;
+        }
     }
 }

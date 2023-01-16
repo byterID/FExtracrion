@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Water
   - Pin
+  - Balloon
+  - ExplodingBox
+  - ExTrigger
   layers:
   - Default
   - TransparentFX
